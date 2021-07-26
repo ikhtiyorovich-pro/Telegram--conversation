@@ -1,0 +1,283 @@
+body {
+	box-sizing: border-box;
+	background-color: rgba(0, 162, 255, 0.596);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.conversation-section {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: white;
+}
+.conversation-friend-wrapper {
+	display: flex;
+	padding: 10px 30px;
+	background-color: rgba(0, 110, 255, 0.774);
+}
+.conversation-friend-list {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.904);
+}
+
+.conversation-end-list {
+	width: 10px;
+	height: 10px;
+	list-style: none;
+	margin-left: auto;
+}
+.conversation-end-link {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	opacity: 0.7;
+}
+.conversation-end-link:hover {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	opacity: 1;
+	transition: 0.3s all;
+}
+
+.conversation-hr-wrapper {
+	width: 470px;
+	display: flex;
+	margin: 20px 0;
+	align-items: center;
+	margin: 20px auto;
+}
+.conversation-time-list {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	list-style: none;
+	margin: 0 15px;
+	color: rgba(0, 0, 0, 0.582);
+	text-decoration: none;
+	opacity: 0.7;
+}
+.conversation-hr {
+	width: 220px;
+	height: 1.6px;
+	background-color: rgba(0, 0, 0, 0.308);
+	border: none;
+}
+.conversation-hr + .conversation-hr {
+	padding-left: 10px;
+}
+.conversation-all-wrapper {
+	width: 470px;
+	margin: 0 auto;
+}
+/* ========== first word ========== */
+.conversation-first-all-list {
+	list-style: none;
+	margin-bottom: 20px;
+}
+.conversation-first-paragraph {
+	width: 240px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: -15px;
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 100px;
+	color: rgba(0, 0, 0, 0.788);
+	background-color: rgba(0, 89, 255, 0.171);
+	border-radius: 3px;
+}
+.conversation-first-all-paragraph {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	list-style: none;
+	color: rgba(0, 0, 0, 0.582);
+	text-decoration: none;
+	opacity: 0.7;
+}
+/* ========== second word ========== */
+.conversation-second-all-list {
+	width: 290px;
+	margin-left: auto;
+	list-style: none;
+}
+.conversation-second-all-paragraph {
+	width: 50px;
+	height: 15px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	list-style: none;
+	color: rgba(0, 0, 0, 0.582);
+	text-decoration: none;
+	opacity: 0.7;
+	margin-left: auto;
+	text-align: center;
+}
+.conversation-second-paragraph {
+	width: 240px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: -15px;
+	margin-left: 23px;
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgba(0, 0, 0, 0.788);
+	background-color: rgba(0, 0, 0, 0.055);
+	border-radius: 3px;
+}
+.triangle-span2 {
+	position: relative;
+	top: 13px;
+	left: 273px;
+	border: 10px solid rgb(241, 241, 241);
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+/* ========== third word ========== */
+.conversation-third-all-list {
+	list-style: none;
+	margin-bottom: 20px;
+}
+.conversation-third-all-paragraph {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	list-style: none;
+	color: rgba(0, 0, 0, 0.582);
+	text-decoration: none;
+	opacity: 0.7;
+}
+.conversation-third-paragraph {
+	width: 80px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: -15px;
+	padding: 15px;
+	padding-left: 10px;
+	color: rgba(0, 0, 0, 0.788);
+	background-color: rgba(0, 89, 255, 0.116);
+	border-radius: 3px;
+}
+.triangle-span3 {
+	position: relative;
+	top: 13.2px;
+	left: -10px;
+	border: 10px solid rgb(224, 234, 252);
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+/* ==========fourth word ========== */
+.conversation-fourth-all-list {
+	width: 200px;
+	margin-left: auto;
+	list-style: none;
+	margin-bottom: 20px;
+}
+.conversation-fourth-all-paragraph {
+	width: 50px;
+	height: 15px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	list-style: none;
+	color: rgba(0, 0, 0, 0.582);
+	text-decoration: none;
+	opacity: 0.7;
+	margin-left: auto;
+	text-align: center;
+}
+.conversation-fourth-paragraph {
+	width: 200px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: -15px;
+	margin-left: -23px;
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgba(0, 0, 0, 0.788);
+	background-color: rgba(255, 0, 179, 0.226);
+	border-radius: 3px;
+}
+.triangle-span4 {
+	position: relative;
+	top: 13px;
+	left: 187px;
+	border: 10px solid rgb(253, 198, 237);
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+.conversation-second-hr {
+	width: 470px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+/* ========== input ========== */
+.conversation-btn-wrapper {
+	width: 470px;
+	margin: 0 auto;
+}
+.conversation-text-input {
+	width: 340px;
+	padding: 10px 20px;
+	border: none;
+}
+.conversation-text-input:active {
+	border: none;
+}
+.conversation-submit-input {
+	width: 50px;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 10px 10px;
+	color: rgb(0, 162, 255);
+	border: none;
+}
+.conversation-submit-input:hover {
+	cursor: pointer;
+}
+.conversation-submit-input:active {
+	color: blue;
+}
+.triangle-span1 {
+	position: relative;
+	top: 13px;
+	left: -10px;
+	border: 10px solid rgb(210, 226, 255);
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
